@@ -1,0 +1,494 @@
+fileFormatVersion: 2
+guid: 9c348bc2fcddaea438c373417b793a5e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8862983866052871345
+    second: Incubator Grayscale_0
+  - first:
+      213: 7633955467586590003
+    second: Incubator Grayscale_1
+  - first:
+      213: 7712652147163194178
+    second: Incubator Grayscale_2
+  - first:
+      213: -2924752088188684558
+    second: Incubator Grayscale_3
+  - first:
+      213: -2155036641222765098
+    second: Incubator Grayscale_4
+  - first:
+      213: -7265100536966519945
+    second: Incubator Grayscale_5
+  - first:
+      213: -5941216865006564247
+    second: Incubator Grayscale_6
+  - first:
+      213: 1173917213777173946
+    second: Incubator Grayscale_7
+  - first:
+      213: -8821639671645467052
+    second: Incubator Grayscale_8
+  - first:
+      213: 1673243115660381357
+    second: Incubator Grayscale_9
+  - first:
+      213: 152258449789864740
+    second: Incubator Grayscale_10
+  - first:
+      213: 5908935900769612717
+    second: Incubator Grayscale_11
+  - first:
+      213: 7899367607264122121
+    second: Incubator Grayscale_12
+  - first:
+      213: -9008028064650411391
+    second: Incubator Grayscale_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Incubator Grayscale_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 25
+        width: 53
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b4891a3ed4affa70800000000000000
+      internalID: 8862983866052871345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Incubator Grayscale_1
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 30
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33556a42d0241f960800000000000000
+      internalID: 7633955467586590003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Incubator Grayscale_2
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 25
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 243e0d3b348d80b60800000000000000
+      internalID: 7712652147163194178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Incubator Grayscale_3
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 27
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f67e67c8713967d0800000000000000
+      internalID: -2924752088188684558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Incubator Grayscale_4
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 25
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d557f9b795c712e0800000000000000
+      internalID: -2155036641222765098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Incubator Grayscale_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 25
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7736c94cd8d2d2b90800000000000000
+      internalID: -7265100536966519945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Incubator Grayscale_6
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 16
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96c49bb3dbe8c8da0800000000000000
+      internalID: -5941216865006564247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Incubator Grayscale_7
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 16
+        width: 26
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abd97ea7c779a4010800000000000000
+      internalID: 1173917213777173946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Incubator Grayscale_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3
+        width: 79
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45e041b257d339580800000000000000
+      internalID: -8821639671645467052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Incubator Grayscale_9
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 16
+        width: 26
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dac0ecb9fbd883710800000000000000
+      internalID: 1673243115660381357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Incubator Grayscale_10
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 16
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42bc6cdd04eec1200800000000000000
+      internalID: 152258449789864740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Incubator Grayscale_11
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 16
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da3fce515e1c00250800000000000000
+      internalID: 5908935900769612717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Incubator Grayscale_12
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 6
+        width: 72
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90594357cf030ad60800000000000000
+      internalID: 7899367607264122121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Incubator Grayscale_13
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 16
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18243c7a33e0df280800000000000000
+      internalID: -9008028064650411391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Incubator Grayscale_0: 8862983866052871345
+      Incubator Grayscale_1: 7633955467586590003
+      Incubator Grayscale_10: 152258449789864740
+      Incubator Grayscale_11: 5908935900769612717
+      Incubator Grayscale_12: 7899367607264122121
+      Incubator Grayscale_13: -9008028064650411391
+      Incubator Grayscale_2: 7712652147163194178
+      Incubator Grayscale_3: -2924752088188684558
+      Incubator Grayscale_4: -2155036641222765098
+      Incubator Grayscale_5: -7265100536966519945
+      Incubator Grayscale_6: -5941216865006564247
+      Incubator Grayscale_7: 1173917213777173946
+      Incubator Grayscale_8: -8821639671645467052
+      Incubator Grayscale_9: 1673243115660381357
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
