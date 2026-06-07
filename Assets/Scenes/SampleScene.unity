@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 56654908}
   - component: {fileID: 56654910}
   - component: {fileID: 56654911}
+  - component: {fileID: 56654912}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -224,9 +225,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86c072cabe1aae4da0f775086fdac13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
-  flySpeed: 5
-  maxSpeed: 8
-  linearDrag: 2
+  flySpeed: 8
+  maxSpeed: 15
+  linearDrag: 5
 --- !u!50 &56654911
 Rigidbody2D:
   serializedVersion: 5
@@ -254,6 +255,28 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!95 &56654912
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 56654907}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8e53c66ed08962f4f9d065ebc9413f6d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &234590417
 GameObject:
   m_ObjectHideFlags: 0

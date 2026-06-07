@@ -10,10 +10,13 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float linearDrag = 2f;
     
     private Rigidbody2D rb;
+    private Animator animator;
     private Vector2 moveInput;
+    private bool isFacingRight = true;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
         rb.linearDamping = linearDrag;
     }
 
@@ -31,7 +34,21 @@ public class PlayerController : MonoBehaviour
         }
         
         moveInput = input.normalized;
+
+        bool moving = input.magnitude > 0;
+        animator.SetBool("isMoving", moving);
+        
+        if (input.x < 0 && !isFacingRight)
+        {
+            Flip();
+        }
+        else if (input.x > 0 && isFacingRight)
+        {
+            Flip();
+        }
+        
     }
+    
 
     void FixedUpdate()
     {
@@ -46,4 +63,13 @@ public class PlayerController : MonoBehaviour
             rb.linearVelocity = rb.linearVelocity.normalized * maxSpeed;
         }
     }
+
+    private void Flip()
+    {
+        isFacingRight = !isFacingRight;
+        Vector3 theScale = transform.localScale;
+        theScale.x *= -1;
+        transform.localScale = theScale;
+    }
+    
 }
