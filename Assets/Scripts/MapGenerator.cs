@@ -20,8 +20,14 @@ public class MapGenerator : MonoBehaviour
     [Tooltip("Zasięg generowania kafelków wokół ptaka")]
     public int viewDistance = 35;
     public float scale = 20f;
-    
 
+    [Header("Proceduralne Obiekty")] 
+    public GameObject treePrefab;
+    public GameObject eggPrefab;
+
+    [Range(0, 100)] public float treeChance = 3f;
+    [Range(0, 100)] public float eggChance = 0.08f;
+    
     private float seedX;
     private float seedY;
     private Vector3Int lastPlayerTilePos;
@@ -70,6 +76,21 @@ public class MapGenerator : MonoBehaviour
                 
                 TileBase selectedTile = AssignTile(noiseValue);
                 tilemap.SetTile(new Vector3Int(x,y,0), selectedTile);
+
+                if (selectedTile == grassTile)
+                {
+                    float rand = Random.Range(0f, 100f);
+                    Vector3 spawnPos = tilemap.GetCellCenterWorld(tilePos);
+
+                    if (rand < eggChance)
+                    {
+                        Instantiate(eggPrefab, spawnPos, Quaternion.identity, transform);
+                        
+                    } else if (rand < eggChance + treeChance)
+                    {
+                        Instantiate(treePrefab, spawnPos, Quaternion.identity, transform);
+                    }
+                }
             }            
         }
     }
