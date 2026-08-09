@@ -156,6 +156,10 @@ MonoBehaviour:
   mountainTile: {fileID: 11400000, guid: 577a77d8c7ae01841b805fb492a984a2, type: 2}
   viewDistance: 100
   scale: 40
+  treePrefab: {fileID: 6699849771873733053, guid: fdd87949c9785504883decc33d4564d9, type: 3}
+  eggPrefab: {fileID: 9002988216553882761, guid: 47ec4af84fd770044aed844cfdd15e4a, type: 3}
+  treeChance: 3
+  eggChance: 0.3
 --- !u!4 &14678201
 Transform:
   m_ObjectHideFlags: 0
@@ -165,7 +169,7 @@ Transform:
   m_GameObject: {fileID: 14678199}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.49562, y: -0.9071, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -187,7 +191,7 @@ GameObject:
   - component: {fileID: 56654913}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -237,8 +241,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 859377951
+  m_SortingLayer: 2
   m_SortingOrder: 10
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7889614689945712943, guid: db4c0d485d0fb244196ffab1fd37b68c, type: 3}
@@ -466,10 +470,10 @@ Camera:
   m_LensShift: {x: 0, y: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0
-    y: 0.055690072
-    width: 1
-    height: 0.88902336
+    x: 0.06400363
+    y: 0
+    width: 0.8715388
+    height: 1
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 34
@@ -552,8 +556,8 @@ MonoBehaviour:
   m_ComponentVersion: 1
   m_AssetsPPU: 16
   m_RefResolutionX: 320
-  m_RefResolutionY: 160
-  m_CropFrame: 4
+  m_RefResolutionY: 180
+  m_CropFrame: 1
   m_GridSnapping: 0
   m_FilterMode: 1
   m_UpscaleRT: 0
@@ -642,8 +646,8 @@ TilemapRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -836953929
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
@@ -651,7 +655,7 @@ TilemapRenderer:
   m_MaxChunkCount: 16
   m_MaxFrameAge: 16
   m_SortOrder: 0
-  m_Mode: 0
+  m_Mode: 1
   m_DetectChunkCullingBounds: 0
 --- !u!1839735485 &611718227
 Tilemap:
@@ -950,7 +954,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1194284796}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1a8a05de0ac134f4f9d01bef6b9da077, type: 3}
   m_Name: 
