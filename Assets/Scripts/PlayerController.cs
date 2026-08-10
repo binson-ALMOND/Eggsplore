@@ -12,7 +12,7 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D rb;
     private Animator animator;
     private Vector2 moveInput;
-    private bool isFacingRight = true;
+    private bool isFacingRight = false;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();

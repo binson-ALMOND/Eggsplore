@@ -6,7 +6,7 @@ public class BabyBird : MonoBehaviour
     public float speed = 2f;
     public float lifeTime = 10f;
 
-    private bool facingRight = false;
+    private bool facingRight = true;
     private Vector3 _flyDirection;
 
     private void Start()

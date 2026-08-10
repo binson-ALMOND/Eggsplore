@@ -150,16 +150,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MapGenerator
   tilemap: {fileID: 611718227}
   player: {fileID: 56654909}
-  waterTile: {fileID: 11400000, guid: 10840ef6e3a7dd441820690957fe41d1, type: 2}
-  sandTile: {fileID: 11400000, guid: 48fdd1072bb46be49a2e73c985705d98, type: 2}
-  grassTile: {fileID: 11400000, guid: 188a8c0bbe2c21f4bb742978e2075f42, type: 2}
-  mountainTile: {fileID: 11400000, guid: 577a77d8c7ae01841b805fb492a984a2, type: 2}
+  waterTile: {fileID: 11400000, guid: 024bc7ea21880cb408e57e34cb035206, type: 2}
+  sandTile: {fileID: 11400000, guid: 80859c080c9353c4eaf800304fbb55c9, type: 2}
+  grassTile: {fileID: 11400000, guid: 0787e8300c1f6274ab08165351635a7c, type: 2}
+  mountainTile: {fileID: 11400000, guid: 62ff7224b49fac040aef71713e45a171, type: 2}
   viewDistance: 100
   scale: 40
   treePrefab: {fileID: 6699849771873733053, guid: fdd87949c9785504883decc33d4564d9, type: 3}
   eggPrefab: {fileID: 9002988216553882761, guid: 47ec4af84fd770044aed844cfdd15e4a, type: 3}
   treeChance: 3
-  eggChance: 0.3
+  eggChance: 0.01
 --- !u!4 &14678201
 Transform:
   m_ObjectHideFlags: 0
@@ -245,7 +245,7 @@ SpriteRenderer:
   m_SortingLayer: 2
   m_SortingOrder: 10
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 7889614689945712943, guid: db4c0d485d0fb244196ffab1fd37b68c, type: 3}
+  m_Sprite: {fileID: 7090346970942859961, guid: 8af3a44a6cd6c8f41b81707a74597776, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
