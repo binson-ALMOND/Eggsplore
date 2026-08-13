@@ -31,18 +31,19 @@ public class MapGenerator : MonoBehaviour
     private float seedX;
     private float seedY;
     private Vector3Int lastPlayerTilePos;
-    void Start()
+    void Awake()
     {
         seedX = Random.Range(0f,99999f);
         seedY = Random.Range(0f,99999f);
-
-        if (player != null)
-        {
-            player.position = Vector3.zero;
-        }
-
         GenerateTilesAroundPlayer();
 
+        if (player != null && !player.CompareTag("MainCamera"))
+        {
+            SetPlayerToSafePosition();
+            
+        }
+        GenerateTilesAroundPlayer();
+        
     }
 
     void Update()
@@ -55,6 +56,41 @@ public class MapGenerator : MonoBehaviour
         {
             lastPlayerTilePos = currentPlayerTilePos;
             GenerateTilesAroundPlayer();
+        }
+    }
+
+    private void SetPlayerToSafePosition()
+    {
+        Vector3Int centerCell = Vector3Int.zero;
+
+        for (int x = centerCell.x - viewDistance; x <= centerCell.x + viewDistance; x++)
+        {
+            for (int y = centerCell.y - viewDistance; y <= centerCell.y + viewDistance; y++)
+            {
+                Vector3Int tilePos = new Vector3Int(x, y, 0);
+
+                if (tilemap.GetTile(tilePos) == grassTile)
+                {
+                    Vector3 worldPos = tilemap.GetCellCenterWorld(tilePos);
+                    
+                    Collider2D hit = Physics2D.OverlapCircle(worldPos, 0.2f);
+                    if (hit == null || hit.transform == player)
+                    {
+                        player.position = worldPos;
+                        lastPlayerTilePos = tilemap.WorldToCell(player.position);
+
+
+                        if (Camera.main != null)
+                        {
+                            Camera.main.transform.position = new Vector3(worldPos.x, worldPos.y, Camera.main.transform.position.z);
+                        }
+                        
+                        SpriteRenderer spriteRenderer = player.GetComponent<SpriteRenderer>();
+                        if (spriteRenderer != null) spriteRenderer.enabled = true;
+                        return;
+                    }
+                }
+            }
         }
     }
     public void GenerateTilesAroundPlayer()
