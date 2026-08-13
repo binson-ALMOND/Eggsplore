@@ -142,3 +142,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Egg
   babyBirdPrefab: {fileID: 8187760622435214870, guid: 12c3336ba1bb80a4c9be664a8e6e9b2b, type: 3}
+  hatchSound: {fileID: 8300000, guid: cd32c60eade648f4388bade03cc6ee2b, type: 3}

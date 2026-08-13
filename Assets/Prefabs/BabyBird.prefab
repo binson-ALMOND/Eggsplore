@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 105652692873311629}
   - component: {fileID: 807975149823563896}
   - component: {fileID: 795983884870914385}
-  - component: {fileID: -2941413217313018728}
+  - component: {fileID: 7491761097037934399}
   m_Layer: 0
   m_Name: BabyBird
   m_TagString: Untagged
@@ -29,7 +29,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.125, y: 0.125, z: 1}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -83,12 +83,12 @@ SpriteRenderer:
   m_SortingLayer: 2
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -1746260428957075226, guid: db4c0d485d0fb244196ffab1fd37b68c, type: 3}
+  m_Sprite: {fileID: 6969954652739210923, guid: acd46617462c94e45bda3861c8055f2d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.16, y: 0.16}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -105,9 +105,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 678f71699367a2e479b4cf9701ea9e21, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BabyBird
-  speed: 2
+  speed: 1.75
   lifeTime: 10
---- !u!95 &-2941413217313018728
+--- !u!95 &7491761097037934399
 Animator:
   serializedVersion: 7
   m_ObjectHideFlags: 0
@@ -117,7 +117,7 @@ Animator:
   m_GameObject: {fileID: 8187760622435214870}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: b30681a4da6c6fc49b6b5522120a18a7, type: 2}
+  m_Controller: {fileID: 9100000, guid: 522f07c5bbbedd9459db2f4e82dae4d4, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

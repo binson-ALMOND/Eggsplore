@@ -13,6 +13,19 @@ public class PlayerController : MonoBehaviour
     private Animator animator;
     private Vector2 moveInput;
     private bool isFacingRight = false;
+    
+    [Header("Audio settings")]
+    public AudioSource audioSource;
+    public AudioClip flapSound;
+
+    public void PlayFlapSound()
+    {
+        if (audioSource != null && flapSound != null)
+        {
+            audioSource.PlayOneShot(flapSound);
+        }
+    }
+    
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();

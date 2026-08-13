@@ -6,6 +6,7 @@ public class Egg : MonoBehaviour
 {
     public GameObject babyBirdPrefab;
     private bool isPlayerNear = false;
+    public AudioClip hatchSound;
 
     void OnTriggerEnter2D(Collider2D other)
     {
@@ -27,7 +28,14 @@ public class Egg : MonoBehaviour
 
     void Hatch()
     {
-        if (ScoreManager.Instance != null) ScoreManager.Instance.AddPoint();
+        if (hatchSound != null)
+        {
+            AudioSource.PlayClipAtPoint(hatchSound, transform.position);
+        }
+        if (ScoreManager.Instance != null)
+        {
+            ScoreManager.Instance.AddPoint();
+        }
 
         if (babyBirdPrefab != null)
         {
